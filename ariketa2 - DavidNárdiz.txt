@@ -1,0 +1,14 @@
+ARIKETA 2
+cd /ariketa2
+git remote add origin https://github.com/davidnardiz/2ariketa.git
+git status
+git add .
+git status
+git commit -m "primer commit ariketa2"
+git push -u origin master
+
+Fitxategi batzuk aldatu ondoren:
+git add .
+git status
+git commit -m “aldaketa batzuk”
+git reset --hard HEAD~1
